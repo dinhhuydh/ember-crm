@@ -1,1 +1,12 @@
 h1 Hello World! This is ember app
+
+header
+  article
+    .logo
+      h1
+        a href="#" Ember CRM
+
+section#main
+  = outlet
+
+footer
